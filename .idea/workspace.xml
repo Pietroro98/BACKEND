@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f31bc162-b159-4148-9537-7793bd563363" name="Changes" comment="esercizio 1">
+    <list default="true" id="f31bc162-b159-4148-9537-7793bd563363" name="Changes" comment="modifiche">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,12 +110,29 @@
       <option name="project" value="LOCAL" />
       <updated>1727105667009</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="esercizio 1">
+      <option name="closed" value="true" />
+      <created>1727105930001</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727105930001</updated>
+    </task>
+    <task id="LOCAL-00008" summary="modifiche">
+      <option name="closed" value="true" />
+      <created>1727106133775</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727106133775</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="esercizio 1 modifiche" />
     <MESSAGE value="esercizio 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="esercizio 1" />
+    <MESSAGE value="modifiche" />
+    <option name="LAST_COMMIT_MESSAGE" value="modifiche" />
   </component>
 </project>

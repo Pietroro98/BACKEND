@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("esercizio 1");
+        System.out.println("*** ESERCIZIO 1 ***");
         int result = moltiplica(20, 50);
         System.out.println("il tuo risultato é: " + result);
 
@@ -13,24 +13,26 @@ public class Main {
         String[] arr = inserisciInArray(new String[]{"A", "B", "C", "D", "E"}, "Pietro");
         System.out.println(Arrays.toString(arr));
 
-        System.out.println("esercizio 2");
-        Scanner scan = new Scanner(System.in);
+        System.out.println("*** ESERCIZIO 2 ***");
+
+        Scanner sc = new Scanner(System.in);
         String[] myStrings = new String[3];
         System.out.print("Inserisci la prima stringa per entrare");
-        myStrings[0] = scan.nextLine();
+        myStrings[0] = sc.nextLine();
         System.out.print("Inserisci la prima stringa per entrare");
-        myStrings[1] = scan.nextLine();
+        myStrings[1] = sc.nextLine();
         System.out.print("Inserisci la prima stringa per entrare");
-        myStrings[2] = scan.nextLine();
+        myStrings[2] = sc.nextLine();
 
         System.out.print("Concatena in ordine di inserimento:");
         System.out.println(myStrings[0] + myStrings[1] + myStrings[2]);
 
         System.out.print("Concatena in ordine inverso:");
         System.out.println(myStrings[2] + myStrings[1] + myStrings[0]);
-        scan.close();
+        sc.close();
 
-        System.out.println("esercizio 3");
+        System.out.println("*** ESERCIZIO 3 ***");
+
         System.out.println("perimetro del rettangolo: " + perimetroRettangolo(2, 5));
         System.out.println("verifica se pari o dispari: " + pariDispari(12));
         System.out.println("area del triangolo: " + perimetroTriangolo(3.5,4.5,6.5));
