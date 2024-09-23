@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // Esercizio 1
+        System.out.println("esercizio 1");
         int result = moltiplica(20, 50);
         System.out.println("il tuo risultato é: " + result);
 
@@ -13,7 +13,7 @@ public class Main {
         String[] arr = inserisciInArray(new String[]{"A", "B", "C", "D", "E"}, "Pietro");
         System.out.println(Arrays.toString(arr));
 
-        //ESERCIZIO 2
+        System.out.println("esercizio 2");
         Scanner scan = new Scanner(System.in);
         String[] myStrings = new String[3];
         System.out.print("Inserisci la prima stringa per entrare");
@@ -30,7 +30,7 @@ public class Main {
         System.out.println(myStrings[2] + myStrings[1] + myStrings[0]);
         scan.close();
 
-        //ESERCIZIO 3
+        System.out.println("esercizio 3");
         System.out.println("perimetro del rettangolo: " + perimetroRettangolo(2, 5));
         System.out.println("verifica se pari o dispari: " + pariDispari(12));
         System.out.println("area del triangolo: " + perimetroTriangolo(3.5,4.5,6.5));
@@ -45,7 +45,7 @@ public class Main {
         double semiPerimetro = (l1 + l2 + l3) / 2;
         return Math.sqrt(semiPerimetro * (semiPerimetro - l1) * (semiPerimetro - l2) * (semiPerimetro - l3));
     }
-        //esercizio 1
+
     public static int moltiplica(int a, int b) {
         return a * b;
     }
