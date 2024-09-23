@@ -49,7 +49,7 @@ public class Main {
         return a * b;
     }
     public static String concatena(String str, int num) {
-        return str + num;
+        return "Sono " + str + " ho " + num + " anni";
     }
     public static String[] inserisciInArray(String[] strArray, String str) {
         String[] arr = new String[6];
