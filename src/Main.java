@@ -7,7 +7,8 @@ public class Main {
         int result = moltiplica(20, 50);
         System.out.println("il tuo risultato é: " + result);
 
-        System.out.println(concatena("Pietro", 26));
+        String resultConcatena = concatena("Pietro", 26);
+        System.out.println(resultConcatena);
 
         String[] arr = inserisciInArray(new String[]{"A", "B", "C", "D", "E"}, "Pietro");
         System.out.println(Arrays.toString(arr));
@@ -22,10 +23,10 @@ public class Main {
         System.out.print("Inserisci la prima stringa per entrare");
         myStrings[2] = scan.nextLine();
 
-        System.out.println("Concatena in ordine di inserimento:");
+        System.out.print("Concatena in ordine di inserimento:");
         System.out.println(myStrings[0] + myStrings[1] + myStrings[2]);
 
-        System.out.println("Concatena in ordine inverso:");
+        System.out.print("Concatena in ordine inverso:");
         System.out.println(myStrings[2] + myStrings[1] + myStrings[0]);
         scan.close();
 
