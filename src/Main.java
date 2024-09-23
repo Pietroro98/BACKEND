@@ -15,11 +15,11 @@ public class Main {
         //ESERCIZIO 2
         Scanner scan = new Scanner(System.in);
         String[] myStrings = new String[3];
-        System.out.println("Inserisci la prima stringa per entrare");
+        System.out.print("Inserisci la prima stringa per entrare");
         myStrings[0] = scan.nextLine();
-        System.out.println("Inserisci la prima stringa per entrare");
+        System.out.print("Inserisci la prima stringa per entrare");
         myStrings[1] = scan.nextLine();
-        System.out.println("Inserisci la prima stringa per entrare");
+        System.out.print("Inserisci la prima stringa per entrare");
         myStrings[2] = scan.nextLine();
 
         System.out.println("Concatena in ordine di inserimento:");
@@ -53,7 +53,7 @@ public class Main {
     }
     public static String[] inserisciInArray(String[] strArray, String str) {
         String[] arr = new String[6];
-        for (int i = 0; i < strArray.length +1 ; i++) {
+        for (int i = 0; i < strArray.length; i++) {
             if(i < 2) {
                 arr[i] = strArray[i];
             } else if(i == 2) {
